@@ -1,7 +1,7 @@
 # NiceLogin Bootstrap
 
 NiceLogin is a Login/SignUp page template for [Bootstrap](http://getbootstrap.com/) and uses jquery and jqueryUi
-
+# Demo [Here](https://cdn.rawgit.com/syedsaadh/NiceLogin/master/index.html)
 # Features
 * Cool User Interface
 * JqueryUi Animation
