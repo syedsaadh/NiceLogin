@@ -5,6 +5,9 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+body{
+ background:none;
+}
 .box{
 
 	display: block;
