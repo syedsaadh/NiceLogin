@@ -29,6 +29,8 @@
 
 	<!-- Theme CSS -->
 	<link href="css/main.css" rel="stylesheet">
+	<script type="text/javascript" src="main.js">
+</script>
 
 </head>
 <body style="">
@@ -42,14 +44,14 @@
 				<div class="form-container">
 					<div class="login-container">
 						<h2> Sign In</h2>
-						<form class="nice-form">
+						<form  name ="form" class="nice-form">
 							<div class="form-group">
 								<label for="exampleInputEmail1">EMAIL</label>
-								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+								<input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
 							</div>
 							<div class="form-group">
 								<label for="exampleInputPassword1">PASSWORD</label>
-								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+								<input type="password" name="pass" class="form-control" id="exampleInputPassword1" placeholder="Password">
 							</div>
 							<div class="checkbox">
 								<label>
@@ -57,7 +59,7 @@
 								</label>
 							</div>
 							<div class="form-group">
-								<button type="submit" class="btn btn-nice">Submit</button>
+								<button type="submit" onclick="check()"class="btn btn-nice">Submit</button>
 							</div>
 							<div class="box-footer">
 								<p><a href="#" class="forgot-pass">Forgot your password?</a></p>
